@@ -1,0 +1,147 @@
+﻿#black {
+    width: 975px;
+    height: 825px;
+    background-image: url('/Content/black.png');
+    position: absolute;
+    z-index: 1;
+}
+body {
+    background-color: #666666;
+    background-image: url('/Content/grid.png');
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 15px;
+}
+#brain {
+    width: 975px;
+    height: 825px;
+    background-image: url('/Content/brain.png');
+    position: absolute;
+    z-index: 1;
+}
+#footerpusher {
+    height: 640px;
+}
+#footerpusher ul {
+    list-style: none;
+    width: 30px;
+    padding: 60px 0px 0px 0px;
+    margin: 20px 0px 0px -10px;
+    z-index: 3;
+    background-image: url('/Content/score.png');
+    background-repeat: no-repeat;
+}
+#footerpusher ul li {
+    height: 10px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+#ghost {
+    width: 975px;
+    height: 825px;
+    background-image: url('/Content/ghost.png');
+}
+#ghosts {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    z-index: 3;
+    background-image: url('/Content/ghosts.png');
+    margin-top: 5px;
+    margin-left: 785px;
+}
+#gradient {
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 135px;
+    height: 360px;
+    background-image: url('/Content/gradient.png');
+}
+.gradientleftinner {
+    width: 30px;
+    height: 30px;
+}
+.gradientleftouter {
+    height: 30px;
+    float: left;
+    padding: 0px 10px 0px 10px;
+    width: 30px;
+}
+.gradientright {
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 85px;
+    height: 30px;
+    float: left;
+}
+.gradientrow {
+    padding-top: 10px;
+    height: 30px;
+}
+#gradientrowtemplatewrapper {
+    display: none;
+}
+#logo {
+    padding: 10px 185px 35px 10px;
+    width: 780px;
+    height: 780px;
+    background-image: url('/Content/logo.png');
+    position: absolute;
+    z-index: 1;
+}
+#pseudotable {
+    height: 23px;
+    font-size: 8px;
+    line-height: 20px;
+}
+.pseudotablecelllong {
+    float: left;
+    width: 39px;
+}
+.pseudotablecellmedium {
+    float: left;
+    width: 35px;
+}
+.pseudotablecellshort {
+    float: left;
+    width: 22px;
+}
+#scrollingwindow {
+    width: 780px;
+    height: 780px;
+    overflow-y: scroll;
+}
+#sidebar {
+    width: 175px;
+    height: 740px;
+    margin-left: 800px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+}
+#sidebar form {
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+#sidebar form textarea {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 150px;
+}
+.sprite {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+.square {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+}

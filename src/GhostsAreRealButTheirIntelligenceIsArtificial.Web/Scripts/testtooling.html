@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Mocha Tests</title>
+      <script type="text/javascript" src="functionality.js"></script>
+      <script type="text/javascript" src="require.js"></script>
+      <script type="text/javascript">
+         require([
+               './require',
+               './chai',
+               './mocha'
+            ], function (require, chai, moca) {
+            var options = {
+               ui: 'bdd',
+               timeout: 10000
+            };
+            mocha.setup(options);
+            window.assert = chai.assert;
+            require([
+               'bundle'
+               ], function () {
+                  mocha.run();
+            });
+         });
+      </script>
+   </head>
+   <body>
+      <div id="mocha"></div>
+   </body>
+</html>

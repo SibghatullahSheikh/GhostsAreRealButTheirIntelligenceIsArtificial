@@ -1,0 +1,94 @@
+﻿<div id="ghost">
+    <div class="square" style="background-image: url('/Content/fake.png'); margin-top: -25px; margin-left: -25px;"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/bar_down.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/bar_left.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/bar_right.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/bar_up.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/baz_down.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/baz_left.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/baz_right.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/baz_up.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/down_first.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/down_full.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/down_last.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/down_waning.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/down_waxing.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/foo_down.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/foo_left.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/foo_right.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/foo_up.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/left_first.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/left_full.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/left_last.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/left_waning.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/left_waxing.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/new.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/qux_down.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/qux_left.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/qux_right.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/qux_up.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/right_first.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/right_full.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/right_last.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/right_waning.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/right_waxing.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/up_first.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/up_full.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/up_last.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/up_waning.png');"></div>
+    <div class="sprite" style="margin-top: -70px; margin-left: -70px; background-image: url('/Content/up_waxing.png');"></div>
+    <div id="brain" style="display: none;"></div>
+    <div id="sidebar">
+        This is the "ghosts are real but...their intelligence is artificial" main menu where you may:
+        <form action="/Info/" method="POST">
+            <div>Learn more about this game.</div>
+            <input type="submit" value="Go" />
+        </form>
+        <form action="/Game/Architect/" method="POST">
+            <div>Program some ghosts.</div>
+            <input type="submit" value="Go" />
+        </form>
+        <form action="/Game/Index/" method="POST">
+            <div>Paste in a script you wrote to play through it!</div>
+            <textarea name="Script"></textarea>
+            <div id="pseudotable">
+                <div class="pseudotablecellshort"><input type="radio" name="Act" value="revisit" checked /></div>
+                <div class="pseudotablecellmedium">Revisit</div>
+                <div class="pseudotablecellshort"><input type="radio" name="Act" value="revise" /></div>
+                <div class="pseudotablecellmedium">Revise</div>
+                <div class="pseudotablecellshort"><input type="radio" name="Act" value="revamp" /></div>
+                <div class="pseudotablecelllong">Revamp!</div>
+            </div>
+            <input type="submit" value="Go" />
+        </form>
+        <form action="/Game/Canned/" method="POST">
+            <div>Play one of these canned scripts.</div>
+            <input type="hidden" name="Act" value="play" />
+            <input type="submit" name="Script" value="1" />
+            <input type="submit" name="Script" value="2" />
+            <input type="submit" name="Script" value="3" />
+            <input type="submit" name="Script" value="4" />
+        </form>
+        <form action="/Game/Canned/" method="POST">
+            <div>See the code for the canned scripts.</div>
+            <input type="hidden" name="Act" value="see" />
+            <input type="submit" name="Script" value="1" />
+            <input type="submit" name="Script" value="2" />
+            <input type="submit" name="Script" value="3" />
+            <input type="submit" name="Script" value="4" />
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var loop = function () {
+            var style = $("#brain").attr('style');
+            if (style == "display: none;") {
+                $("#brain").attr('style', "display: block;");
+            } else {
+                $("#brain").attr('style', "display: none;");
+            }
+        };
+        var interval = setInterval(loop, 2000);
+    });
+</script>
